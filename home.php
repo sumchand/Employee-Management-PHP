@@ -12,7 +12,7 @@
   </head>
   <style>
     .hhimg{
-      background-image: url(hh.jpg);
+      background-image: url(jj.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -48,15 +48,12 @@
       background-color: blue;
     }
   
-}
-
-    }
   </style>
   <body>
     <div class="hhimg">
       <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><b>ONLINE LEARNING <b></b></a>
+          <a class="navbar-brand" href="#"><b>Employee Management System <b></b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -88,7 +85,7 @@
            <h3>Education is one of the important thing</h3>
            <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            <br>
-           <div class="btn btn-danger py-2"> Get Started</div>
+          <a href="login1.php"> <div class="btn btn-danger py-2">Login</div></a>
           </div>
           <div class="carousel-item text-white">
             <h3>Education training is important</h3>
@@ -107,11 +104,17 @@
       </div>
     </div>
     
+
+    
     <div class="bg-orange p-5 d-none d-md-flex d-xl-flex align-items-center justify-content-evenly" style="margin: 5% 0;" id="about" data-aos="flip-left">
     <div class="d-flex flex-column text-white">
       <h1 class="fw-bold">About Us</h1>
-      <p class="py-5"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, voluptatibus corrupti maxime vero<br> cumque sit voluptatum quidem mollitia incid
-        unt! Non rerum eos possimus<br> laboriosam distinctio repudiandae tempora deserunt enim accusamus.</p>
+      <p class="py-5"> An employee management system simplifies HR processes, improves communication, and boosts productivity.
+
+
+
+
+</p>
         <div class="btn btn-light py-2 border-0 w-25">READ MORE</div>
     </div>
      <img src="study1.jpg" alt="" class="img-fluid w-50 ">
@@ -127,35 +130,36 @@
        <img src="study1.jpg" alt="" class="img-fluid py-5 ">
       </div>
     
-      <!--courses-->
+      <!--teams-->
       <div class="container-fluid" id="course" data-aos="fade-up">
       <div class="text-center mb-5 pb-2">
-        <h1>EXPLORE COURSES</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1>Our Team</h1>
+        <p>
+Our team is a talented group of individuals who bring diverse skills, expertise, and passion to our website, working together to deliver exceptional results.</p>
       </div>
 
       <div class="d-flex align-items-center justify-content-evenly">
         <div class="card border-0" style="width: 22rem;" data-aos="zoom-in">
-          <img src="cc.jpg" class="card-img-top img-fluid" alt="...">
+          <img src="harshit.jpg" class="card-img-top img-fluid" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title">Introduction of css</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title">Harshit Pandey</h5>
+            <p class="card-text" style ="text-color: blue">As the founder of this website, I bring my expertise as a software engineer to ensure seamless functionality and exceptional user experiences. With a strong technical background, I drive innovation and oversee the development of cutting-edge software solutions.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
         <div class="card border-0" style="width: 22rem;" data-aos="zoom-in">
-          <img src="cc.jpg" class="card-img-top img-fluid" alt="...">
+          <img src="rachit.jpg" class="card-img-top img-fluid" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title">Introduction of Java</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title">Rachit Sriwastava</h5>
+            <p class="card-text">As a co-founder of this website, my role as a software engineer is crucial in ensuring smooth operations and delivering high-quality solutions. With a shared passion for technology, I collaborate with the team to drive innovation and create an exceptional user experience.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
         <div class="card border-0" style="width: 22rem;" data-aos="zoom-in">
-          <img src="cc.jpg" class="card-img-top img-fluid" alt="...">
+          <img src="rahul3.jpg" class="card-img-top img-fluid" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title">Introduction of Advance java</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h5 class="card-title">Mr. Rahul Agnihotri</h5>
+            <p class="card-text">As a guider, I provide valuable guidance and mentorship, leveraging my experience as a software engineer, to steer the team towards success. </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -223,21 +227,21 @@
 
      <div class="text-center ml-2" id="contact" data-aos="fade-right" >
       <h1 class="fw-bold">Contact Us</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Feel free to reach out to us through our contact section for any inquiries or assistance.</p>
      </div>
      <div class="d-flex flex-column align-items-center justify-content-evenly my-5">
-      <form>
+      <form method ="post">
         <div class="mb-3 w-25">
           <label for="exampleFormControlInput1" class="form-label" style="display: inline-block; overflow: hidden; white-space: nowrap;">Email-address</label>
-       <input type="email" placeholder="abc@gmail.com">
+       <input type="email" placeholder="abc@gmail.com" name="email">
           
         </div>
         <div class="mb-3 w-25">
           <label for="exampleformControlTextarea1" class="form-label">MESSAGE</label>
-         <textarea rows="3"></textarea>
+         <textarea rows="3" name="text"></textarea>
         </div>
         <div class="mb-3" >
-         <div class="btn btn-danger py-3 fw-bold">SEND</div>
+         <div class="btn btn-danger py-3 fw-bold" name ="send"> <button type="submit" name="sub">Send</button></div>
       </form>
 
      </div>
@@ -320,3 +324,25 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<?php
+include("connection.php");
+if(isset($_POST['sub']))
+{
+    $f = $_POST["email"];
+    $ff = $_POST["text"];
+    
+   
+    $q = "INSERT INTO contact VALUES('$f','$ff')";
+    $data = mysqli_query($conn, $q);
+    if($data)
+    {
+        echo "data inserted";
+    }
+    else{
+        echo "failed";
+    }
+}
+
+?>
+
